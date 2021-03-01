@@ -208,17 +208,24 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   margin: 0px 0px 20px;
-}
-.rectange:hover {
-  border-radius: 8px;
-  -webkit-box-shadow: -1px 0px #d5d2c1, -1px 1px #a8a8a8, -2px 1px #d4d1c0, -2px 2px #a7a7a7, -3px 2px #d3d0bf, -3px 3px #a6a6a6, -4px 3px #d2cfbe, -4px 4px #a5a5a5, -5px 4px #d1cebd, -5px 5px #a4a4a4, -6px 5px #d0cdbc, -6px 6px #a3a3a3, -7px 6px #cfccbb, -7px 7px #a1a1a1, -8px 7px #cecbba, -8px 8px #a0a0a0, -7px 9px 1px rgba(0, 0, 0, 0.4), -5px 11px 1px rgba(0, 0, 0, 0.2), -1px 13px 4px rgba(0, 0, 0, 0.2), 4px 16px 7px rgba(0, 0, 0, 0.3);
-          box-shadow: -1px 0px #d5d2c1, -1px 1px #a8a8a8, -2px 1px #d4d1c0, -2px 2px #a7a7a7, -3px 2px #d3d0bf, -3px 3px #a6a6a6, -4px 3px #d2cfbe, -4px 4px #a5a5a5, -5px 4px #d1cebd, -5px 5px #a4a4a4, -6px 5px #d0cdbc, -6px 6px #a3a3a3, -7px 6px #cfccbb, -7px 7px #a1a1a1, -8px 7px #cecbba, -8px 8px #a0a0a0, -7px 9px 1px rgba(0, 0, 0, 0.4), -5px 11px 1px rgba(0, 0, 0, 0.2), -1px 13px 4px rgba(0, 0, 0, 0.2), 4px 16px 7px rgba(0, 0, 0, 0.3);
-  -webkit-transform: translate(7px, -8px);
-      -ms-transform: translate(7px, -8px);
-          transform: translate(7px, -8px);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  /*&:hover{
+  	border-radius: 8px;
+  	box-shadow:
+  	-1px 0px rgb(213,210,193), -1px 1px rgb(168,168,168),
+  	-2px 1px rgb(212,209,192), -2px 2px rgb(167,167,167),
+  	-3px 2px rgb(211,208,191), -3px 3px rgb(166,166,166),
+  	-4px 3px rgb(210,207,190), -4px 4px rgb(165,165,165),
+  	-5px 4px rgb(209,206,189), -5px 5px rgb(164,164,164),
+  	-6px 5px rgb(208,205,188), -6px 6px rgb(163,163,163),
+  	-7px 6px rgb(207,204,187), -7px 7px rgb(161, 161, 161),
+  	-8px 7px rgb(206, 203, 186), -8px 8px rgb(160, 160, 160),
+  	-7px 9px 1px rgba(0,0,0,.4),
+  	-5px 11px 1px rgba(0,0,0,.2),
+  	-1px 13px 4px rgba(0,0,0,.2),
+  	4px 16px 7px rgba(0,0,0,.3);
+  	transform: translate(7px, -8px);
+  	transition: 0.5s;
+  	}*/
 }
 .rectange:active {
   border-radius: 8px;
