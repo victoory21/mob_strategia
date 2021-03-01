@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="noindex, noarchive">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<title>Страница с карточками</title>
+</head>
+<body>
+	<!-- Оболочка -->
+	<div class="budgets">
+		<div class="container">
+			<header class="navbar">
+				<img class="navbar__shape" src="/img/navbars/components/statusbar/Combined Shape.svg" alt="">
+				<img class="navbar__time" src="/img/navbars/components/statusbar/↳ Time.svg" alt="">
+				<img class="navbar__battery" src="/img/navbars/components/statusbar/Battery.svg" alt="">
+			</header>
+			<div class="budgets__body">
+				<div class="budgets__title">
+					<a class="budgets__back" href="#"><img src="/img/navbars/components/elements/action/Back.svg" alt=""></a>
+					<p>Бюджеты</p>
+				</div>
+				<div class="budgets__content">
+					<div class="budgets__text">
+						<p>Выбирайте наиболее близкий для себя бюджет и получайте финансовые рекомендации. Они помогут вам двигаться в рамках выбранного бюджета.
+						</p>
+					</div>
+					<div class="block">
+						<div class="block__min rectange">
+							<a href="##">
+								<img src="/img/navbars/img/min.svg" alt="" class="block_img img">
+								<div class="block__text">
+									<p class="block__title">Бюджет</p>
+									<p class="block__subtitle">Минимализм</p>
+								</div>
+							</a>
+						</div>
+						<div class="block__dzen rectange">
+							<a class="content__image popup-link" href="#popup">
+								<img src="/img/navbars/img/dzen.svg" alt="" class="block_img img">
+								<div class="block__text">
+									<p class="block__title">Бюджет</p>
+									<p class="block__subtitle">Дзен</p>
+								</div>
+							</a>
+						</div>
+						<div class="block__play rectange">
+							<a href="##">
+								<img src="/img/navbars/img/play.svg" alt="" class="block_img img">
+								<div class="block__text">
+									<p class="block__title">Бюджет</p>
+									<p class="block__subtitle">Движение</p>
+								</div>
+							</a>
+						</div>
+						<div class="block__family rectange">
+							<a href="##">
+								<img src="/img/navbars/img/family.svg" alt="" class="block_img img">
+								<div class="block__text">
+									<p class="block__title">Бюджет</p>
+									<p class="block__subtitle">Семья</p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup" class="popup">
+		<div class="popup__body">
+			<div class="popup__container">
+				<a href="#header" class="popup__close close-popup">×</a>  <!-- href="#header" указывается чтобы при закрытии попапа не возвращаться в шапку страницы -->
+				<div class="popup__content">
+					<h1 class="popup__title">Дзен</h1>
+					<div class="popup__text">
+						Счастье в понимании таких людей – это удовлетворение всех жизненных потребностей. Они стараются уделять равное внимание отдыху, собственному внешнему виду, здоровью, развитию и потребностям близких. Такая золотая середина – без крупных приоритезированных трат. О сбережениях они тоже не забывают, ведь для множества целей нужны дополнительные деньги.
+					</div>
+					<div class="balance">
+						<h2>Баланс трат и сбережений</h2>
+						<div>
+							<div class="balance_block1"></div>
+							<div class="balance_block2"></div>
+							<div class="balance_procent">
+								<span>0%</span>
+								<span>16%</span>
+								<span>100%</span>
+							</div>
+							<ul class="balance__text">
+								<li>Сбережения</li>
+								<li>Траты</li>
+							</ul>
+						</div>
+					</div>
+					<div class="wrapper">
+						<h2>3 правила бюджета</h2>
+						<!-- Флекс контейнер -->
+						<div class="wrapper__block">
+							<!-- Флекс элемент -->
+							<div class="block__side"></div>
+							<!-- Флекс элемент -->
+							<div class="block__body">
+								<!-- Слайдер  -->
+								<div class="image-slider swiper__container">
+									<div class="image-slider__wrapper swiper-wrapper">
+										<div class="image-slider__slide swiper-slide">
+											<div class="image-slider__image image1">
+												<img src="/img/navbars/img/Swiper/1.png" alt="Картинка">
+												<p>Балансируйте траты в горизонте от 6 до 12 месяцев. Месячные траты могут меняться – это не страшно: не нужно слишком ограничивать себя.</p>
+											</div>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<div class="image-slider__image image2">
+												<img src="/img/navbars/img/Swiper/2.svg" alt="Картинка">
+												<p>Не забывайте радовать вторую половину – это категория трат чаще всего проседает. Подарки, свидания, путешествия – закладывайте их в бюджет.</p>
+											</div>
+										</div>
+										<div class="image-slider__slide swiper-slide">
+											<div class="image-slider__image image3">
+												<img src="/img/navbars/img/Swiper/3.svg" alt="Картинка">
+												<p>Не начинайте со сложных и рискованных инвестиций. Выбирайте простые стратегии. Например, откройте депозиты в рублях и в валюте.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div id="swiper-pagination" class="swiper-pagination"></div>
+					</div>
+					<div class="buttom__text popup__text">
+						Нравится этот бюджет? Выбирайте его, а мы поможем четко ему следовать.
+					</div>
+					<a class="popup-link popup-link_2" href="#popup_2">Сменить бюджет</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup_2" class="popup">
+		<div class="popup__body">
+			<div class="popup__container">
+				<a href="#header" class="popup__close close-popup">×</a>  <!-- href="#header" указывается чтобы при закрытии попапа не возвращаться в шапку страницы -->
+				<div class="popup__content popup__content_2">
+					<h1 class="popup__title">Личное развитие</h1>
+					<div class="popup2__category">
+						<div class="popup2__row heal">
+							<div class="popup2__category_icons category_icons-1">
+								<img src="/img/navbars/components/PFM/1.svg"></img>
+							</div>
+							<div class="popup2__category_title category_title">
+								<p>Здоровье и внешний вид</p>
+								<span>3 000 ₽ </span>
+								<progress class="progress progress-1" value="61" max="100"></progress>
+							</div>
+							<div class="popup2__category_text popup__text">
+								В этом конверте деньги на вашу привлекательность и здоровье. Все что касается спорта, ежегодных чекапов, походов к дантисту и вашей жизненной энергии вы тратите из этого конверта. 					
+							</div>
+						</div>
+						<div class="popup2__row revol">
+							<div class="popup2__category_icons category_icons-2">
+								<img src="/img/navbars/components/PFM/2.svg"></img>
+							</div>
+							<div class="popup2__category_title category_title">
+								<p>Личная революция</p>
+								<span>3 000 ₽ </span>
+								<progress class="progress progress-2" value="55" max="100"></progress>
+							</div>
+							<div class="popup2__category_text popup__text">
+								Свобода менять свою жизнь, резко меняя сферу деятельности или запустить свой бизнес. С этим конвертом вы сможете освоить новую профессию, закончить бизнес-школу, выйти на любимую работу временно с более низким доходом или запустить свой бизнес.
+							</div>
+						</div>
+						<div class="popup2__row caprice">
+							<div class="popup2__category_icons category_icons-3">
+								<img src="/img/navbars/components/PFM/3.svg"></img>
+							</div>
+							<div class="popup2__category_title category_title">
+								<p>Любой каприз</p>
+								<span>3 000 ₽ </span>
+								<progress class="progress progress-3" value="50" max="100"></progress>
+							</div>
+							<div class="popup2__category_text popup__text">
+								Свобода психануть и потратить деньги на то, что не нужно, но давно хотелось. Уехать на выходные, купить дорогую одежду или новый гаджет, арендовать яхту… Делайте с этим конвертом что хотите, главное чтобы это приносило удовольствие.
+							</div>
+						</div>
+						<div class="popup2__row relax">
+							<div class="popup2__category_icons category_icons-4">
+								<img src="/img/navbars/components/PFM/4.svg"></img>
+							</div>
+							<div class="popup2__category_title category_title">
+								<p>Отдохнуть и отвлечься</p>
+								<span>3 000 ₽ </span>
+								<progress class="progress progress-4" value="37" max="100"></progress>
+							</div>
+							<div class="popup2__category_text popup__text">
+								Свобода купить билет на самолет и улететь на другой край света или выбрать самый дорогой отель на побережье. На эти деньги вы сможете позволить себе отпуск мечты, забыть о текущих проблемах и перезагрузиться. 
+							</div>
+						</div>
+						<div class="popup2__row other">
+							<div class="popup2__category_icons category_icons-5">
+								<img src="/img/navbars/components/PFM/5.svg"></img>
+							</div>
+							<div class="popup2__category_title category_title">
+								<p>Прочее</p>
+								<span>3 000 ₽ </span>
+								<progress class="progress progress-5" value="22" max="100"></progress>
+							</div>
+							<div class="popup2__category_text popup__text">
+								Свобода не бояться дня когда срочно потребуется большая сумма денег из-за обстоятельств на которые вы  не можете влиять. 
+							</div>
+						</div>
+					</div>
+					<div class="buttom__text popup__text">
+						Нравится эта стратегия? Выбирайте ее, а мы поможем ей четко следовать.
+					</div>
+					<a class="popup-link_2 popup-link_3" href="##">Сменить стратегию</a> 
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
