@@ -323,8 +323,8 @@ h1, h2, h3, h4, h5, h6 {
   /*======================*/
   /*выключает анимацию попапа (выезжает сверху с искривлением)*/
   opacity: 0;
-  -webkit-transform: perspective(600px) translate(680px, -100%) rotateY(90deg);
-          transform: perspective(600px) translate(680px, -100%) rotateY(90deg);
+  -webkit-transform: perspective(600px) translate(260px, -100%) rotateY(45deg);
+          transform: perspective(600px) translate(260px, -100%) rotateY(45deg);
   /*======================*/
 }
 

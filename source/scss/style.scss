@@ -286,7 +286,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	/*======================*/
 	/*выключает анимацию попапа (выезжает сверху с искривлением)*/
 	opacity: 0;
-	transform: perspective(600px) translate(680px,-100%) rotateY(90deg);
+	transform: perspective(600px) translate(260px,-100%) rotateY(45deg);
 	/*======================*/
 }
 .popup__container_image{
