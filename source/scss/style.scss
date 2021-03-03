@@ -298,6 +298,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 	vertical-align: top; 
 }
 .popup__content{
+	overflow: hidden;
 	background: #FFFFFF;
 	border-radius: 12px;
 	padding: 25px 16px 33px;
