@@ -692,18 +692,17 @@ h1, h2, h3, h4, h5, h6 {
           flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 30px;
-  bottom: 250px;
-  right: 175px;
+  width: 100%;
 }
 
 #swiper-pagination span {
   width: 4px;
   height: 4px;
+  margin: 0 6px;
 }
 
 .swiper-pagination-bullet-active {
